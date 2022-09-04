@@ -1,0 +1,6 @@
+/*Media query only for Samsung fold devices */
+@media screen and (max-width: 299px) {
+  .todo-container {
+    min-width: 270px;
+  }
+}

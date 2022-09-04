@@ -1,0 +1,86 @@
+/* import link of Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Public+Sans&display=swap");
+/*Custom root values for fonts */
+:root {
+  --heading-font: "Maven Pro", sans-serif;
+  --page-font: "Public Sans", sans-serif;
+}
+
+/*Selection of fonts for all neccessary elements */
+.todo-container,
+.btns,
+#input-text {
+  font-family: var(--page-font);
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background: url("/images/todo.jpg") no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-family: var(--heading-font);
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+
+.todo-container {
+  width: 25%;
+  /* border: 2px solid red; */
+  max-width: 35%;
+  min-width: 290px;
+  height: auto;
+  padding: 15px;
+  background: #ffffffe8;
+  border-radius: 11px;
+  margin: 2rem auto;
+  box-shadow: 0 0 20px -4px #151515;
+  transition: all 3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.todo-container:hover {
+  box-shadow: 0 0 20px -4px #4654b1;
+  transform: scale(1.05, 1.05);
+}
+
+.todo-head {
+  margin: 2em 0;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid purple; */
+}
+
+#input-text {
+  height: 28px;
+  font-size: 1em;
+  width: 80%;
+  padding: 0 4px;
+  outline: none;
+}
+
+.btns {
+  margin: 0 5px;
+  font-size: 1.3em;
+  height: 28px;
+  width: 50px;
+}
+
+.body-heading {
+  letter-spacing: 1px;
+  color: #4c3baa;
+  /* border: 2px solid purple; */
+}
+
+.todo-body {
+  /* border: 2px solid purple; */
+  margin: 1em 0;
+}
+
+.btns:hover {
+  cursor: pointer;
+}

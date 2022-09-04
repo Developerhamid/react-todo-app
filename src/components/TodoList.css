@@ -1,0 +1,30 @@
+.task-box {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  border: 2px solid #3ebd97a8;
+  background: linear-gradient(17deg, #50bfcd61, transparent);
+  border-radius: 4px;
+}
+
+#taskData {
+  /* border: 2px solid deeppink; */
+  width: 70%;
+  font-size: 1.1em;
+  line-break: anywhere;
+}
+
+.task-btns {
+  /* border: 2px solid orange; */
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#deleteBtn,
+#doneBtn {
+  margin: 0;
+}
